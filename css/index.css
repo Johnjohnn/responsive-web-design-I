@@ -6,10 +6,9 @@ margin: 5em 5em;
 
 }
 .navigation {
-
 display: flex;
-justify-content: space-evenly;
 margin-top: 2em;
+justify-content: space-around;
 
 
 }
@@ -20,6 +19,7 @@ text-decoration: none;
 font-size: 35px;
 color: gray;
 text-transform: capitalize;
+margin:0  50px;
 
 
 }
@@ -196,12 +196,12 @@ margin-left: 15% ;
     }
     .container-three p {
     
-        font-size: 20px;
+        font-size: 18px;
        margin: 10px;
     
     
     }
-    /*=========== Footer ==========*/
+    /*=========== Footer Tablet==========*/
     footer h2 {
     
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -222,10 +222,108 @@ margin-left: 15% ;
 
 
     }
+/*========== mobile device ==========*/
+
+  @media (max-width : 500px) {
+.navigation {
+display: flex;
+flex-direction: column-reverse;
+
+}
+
+.navigation a {
+display: block;
+text-align: center;
+padding: 5px 0;
+border-top:  solid 1px  black;
+border-bottom: solid 1px black;
 
 
+}
 
+/*========== Section two mobile=========*/
 
+.container-one {
+
+    display: block ;
+    margin-left: 18%;
+    margin-right:auto;
+    
+    }
+    .box p {
+    font-size: 40px;
+    
+    }
+    .box a {
+    font-size: 10px;
+    text-transform: capitalize;  
+    text-decoration: none;
+    display: inline-block;
+    border: solid 2px black;
+    text-align: center;
+    padding: 10px 55px;
+    margin-left: 10% ;
+    
+    
+    }
+    
+/*========== Third Section Tablet =========*/
+.container-two {
+    display: block;
+    
+    
+    }
+    .container-two h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    
+    }
+    .container-two p {
+    
+    font-size: 10px;
+    margin: 10px;
+    
+    }
+    .image {
+    width: 100%;
+    margin: 2em 0;
+    
+    }
+    .container-three{
+    display: block;
+    margin-bottom: 5em;
+    
+    
+    }
+    .container-three h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: capitalize;
+    }
+    .container-three p {
+    
+        font-size: 10px;
+       margin: 10px;
+    
+    
+    }
+
+    footer h2 {
+    
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: capitalize;
+        }
+    
+      footer p {
+      font-size: 10px;
+    
+    
+      }  
+      footer span {
+    display: block;
+    text-align:  center;
+    margin-top: 3em;
+    
+      }
 
 
 
@@ -247,3 +345,4 @@ margin-left: 15% ;
 
 
   
+  }
