@@ -1,3 +1,249 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/*========== Navigation Full site ==========*/ 
+
+.wraper{
+
+margin: 5em 5em;
+
+}
+.navigation {
+
+display: flex;
+justify-content: space-evenly;
+margin-top: 2em;
 
 
+}
+
+
+.navigation a {
+text-decoration: none;
+font-size: 35px;
+color: gray;
+text-transform: capitalize;
+
+
+}
+/* ========== Second Section ==========*/ 
+.container-one {
+display: flex;
+justify-content: center;
+margin-top: 5em;
+margin-bottom: 5em;
+}
+.box p {
+font-size: 80px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+line-height: 20px;
+margin-right: 2em;
+}
+.box a {
+font-size: 35px;  
+text-transform: capitalize;  
+text-decoration: none;
+display: inline-block;
+border: solid 2px black;
+text-align: center;
+padding: 10px 55px;
+margin-left: 10% ;
+
+
+}
+/*========== Third Section =========*/
+.container-two {
+display: flex;
+
+
+}
+.container-two h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-transform: capitalize;
+
+}
+.container-two p {
+
+font-size: 35px;
+
+
+}
+.image {
+width: 100%;
+margin: 2em 0;
+
+}
+.container-three{
+display: flex;
+margin-bottom: 5em;
+
+
+}
+.container-three h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+.container-three p {
+
+    font-size: 35px;
+   margin: 10px;
+
+
+}
+/*=========== Footer ==========*/
+footer h2 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    }
+
+  footer p {
+  font-size: 25px;
+
+
+
+  }  
+  footer span {
+display: block;
+text-align:  center;
+
+  }
+  /*========== Tablet ==========*/
+  @media (max-width : 800px) {
+
+.navigation {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+}
+.navigation a {  
+  margin: 0 2%;  
+font-size: 20px;
+
+
+
+}
+.main-image {
+display: inline-block;
+margin-left: 30%;
+margin-bottom: 2em;
+
+}
+
+
+.picture-one {
+
+display:none;
+
+
+}
+
+/*========== Section two Tablet =========*/
+
+.container-one {
+
+display: block ;
+margin-left: 20%;
+margin-right:auto;
+
+}
+.box p {
+font-size: 70px;
+
+}
+.box a {
+font-size: 20px;
+text-transform: capitalize;  
+text-decoration: none;
+display: inline-block;
+border: solid 2px black;
+text-align: center;
+padding: 10px 55px;
+margin-left: 15% ;
+
+
+}
+
+/*========== Third Section Tablet =========*/
+.container-two {
+    display: flex;
+    
+    
+    }
+    .container-two h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    
+    }
+    .container-two p {
+    
+    font-size: 20px;
+    margin: 10px;
+    
+    }
+    .image {
+    width: 100%;
+    margin: 2em 0;
+    
+    }
+    .container-three{
+    display: flex;
+    margin-bottom: 5em;
+    
+    
+    }
+    .container-three h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: capitalize;
+    }
+    .container-three p {
+    
+        font-size: 20px;
+       margin: 10px;
+    
+    
+    }
+    /*=========== Footer ==========*/
+    footer h2 {
+    
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: capitalize;
+        }
+    
+      footer p {
+      font-size: 15px;
+    
+    
+    
+      }  
+      footer span {
+    display: block;
+    text-align:  center;
+    
+      }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
